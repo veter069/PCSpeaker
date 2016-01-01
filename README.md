@@ -8,6 +8,6 @@ and use command ./pcsplayer sololine.txt (you will see messadge "Permission deni
 sololine.txt this the file with notes, another notes you can find in the same dir PIT8254-master\PCSplayer\build\
 ==============================================================
 source PIT8254-master\PCSplayer\PCSplayer.cpp
-You can editting and then compile using g++
+You can editting and then compile using g++ for linux or Borland c++ for DOS
 ====================================================
 
