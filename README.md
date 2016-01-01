@@ -11,3 +11,5 @@ source PIT8254-master\PCSplayer\PCSplayer.cpp
 You can editting and then compile using g++ for linux or Borland c++ for DOS
 ====================================================
 
+based on based on FROSTEROID's PIT8254 project
+https://github.com/FROSTEROID/PIT8254
