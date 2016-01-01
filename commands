@@ -1,0 +1,207 @@
+=====================================================
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# make pcsplayer
+g++ -std=c++11 PCSplayer/PCSplayer.cpp -o PCSplayer/build/pcsplayer
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# ls
+CPUbenchmark  CPUports  LICENSE  Makefile  PCSplayer  PITctl  README.md
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# mkdirbBuild
+bash: mkdirbBuild: command not found
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# mkdir build
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# make pcsplayer
+g++ -std=c++11 PCSplayer/PCSplayer.cpp -o PCSplayer/build/pcsplayer
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master# cd build
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master/build# 
+==============================================================================
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master/PCSplayer/build# ./pcsplayer sololine.txt 
+bash: ./pcsplayer: Permission denied
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master/PCSplayer/build# cp ./* ~/Desktop/
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling/PIT8254-master/PCSplayer/build# cd
+root@kali:~# cd Desktop/
+root@kali:~/Desktop# l
+bash: l: command not found
+root@kali:~/Desktop# ls
+bassline.txt  pcsplayer  sololine.txt
+root@kali:~/Desktop# ./pcsplayer sololine.txt 
+bash: ./pcsplayer: Permission denied
+root@kali:~/Desktop# chmod 777 pcsplayer 
+root@kali:~/Desktop# ./pcsplayer sololine.txt 
+Here came our note frequencies
+File opened! 434 notes!
+File read! Press any key to play
+=========================================================
+/*
+  261,63 (0) До			523,25(0) До
+277,18 (+1)
+293,66 (+2) Ре
+311,13 (+3)
+329,63 (+4) Ми
+349,23 (+5) ФА
+369,99 (+6)
+392,00 (+7) соль
+415,30 (+8)
+440,00 (+9) Ля
+466,16 (+10)
+493,88 (+11) СИ
+
+1/4   - палочка
+1/8   - 2 палочки
+ *1,0595 для полутона
+Первая октава			Вторая октава
+2x
+=======================
+3 4
+3 11
+3 4
+
+4 0
+3 11
+3 9
+
+3 11
+3 9
+3 11
+
+4 0
+4 0
+3 11
+3 9
+
+3 4
+3 11
+3 4
+
+4 0
+3 11
+3 9
+
+3 11
+3 9
+3 7
+
+3 6
+3 6
+3 7
+3 6
+================================
+
+3 4
+
+*/
+==========================================
+root@kali:/media/root/9016-4EF8/Downloads/PITControlling# g++ -std=c++11 main.cpp -o beep
+
+root@kali:~# cd Desktop/
+root@kali:~/Desktop# ls
+beep  main
+root@kali:~/Desktop# ./beep
+bash: ./beep: Permission denied
+root@kali:~/Desktop# chown root beep 
+root@kali:~/Desktop# chmod 777 beep 
+root@kali:~/Desktop# ./beep 
+B7OcQDE9BjhBoH8nfUoH
+
+261,63 (0) До			523,25(0) До
+277,18 (+1)
+293,66 (+2) Ре
+311,13 (+3)
+329,63 (+4) Ми
+349,23 (+5) ФА
+369,99 (+6) 
+392,00 (+7) соль
+415,30 (+8)
+440,00 (+9) Ля
+466,16 (+10)
+493,88 (+11) СИ
+
+Первая октава			Вторая октава
+3 4
+3 11
+3 4
+
+4 0
+3 11
+3 9
+
+3 11
+3 9
+3 11
+
+4 0
+4 0
+3 11
+3 9
+
+3 4
+3 11
+3 4
+
+4 0
+3 11
+3 9
+
+3 11
+3 9
+3 7
+
+3 6
+3 6
+3 7
+3 6
+
+3 4
+3 11
+3 4
+4 0
+3 11
+3 7
+3 11
+3 7
+3 11
+4 0
+4 0
+3 11
+3 7
+3 4
+3 7
+3 4
+4 0
+3 11
+3 7
+3 11
+3 7
+3 7
+3 6
+3 6
+3 7
+3 6
+3 4
+ 
+
+
+
+===============================================================
+
+
+
+
+261,63 (0) До			523,25(0) До
+277,18 (+1)
+293,66 (+2) Ре
+311,13 (+3)
+329,63 (+4) Ми
+349,23 (+5) ФА
+369,99 (+6)
+392,00 (+7) Соль
+415,30 (+8)
+440,00 (+9) Ля
+466,16 (+10)
+493,88 (+11) Си
+==================================================
+PeriodBase (0)
+PeriodBase/2 (+1)
+PeriodBase/4 (+2)
+PeriodBase/8 (+3)
+PeriodBase/16 (+4)
+PeriodBase/32 (+5)
+PeriodBase/64 (+6)
+
+
